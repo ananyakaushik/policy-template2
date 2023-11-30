@@ -8,7 +8,7 @@ default visible = false
 default enabled = false
 
 allowed {
-    input.role == "web-admin"
+    input.identity.identity == "test"
 }
 
 enabled {
